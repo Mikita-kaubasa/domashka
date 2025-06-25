@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`ConfirmDeleteModal matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="modal-backdrop confirm-backdrop"
+    tabindex="-1"
+  >
+    <div
+      class="confirm-modal"
+    >
+      <div
+        class="confirm-title"
+      >
+        Delete user?
+      </div>
+      <div
+        class="confirm-message"
+      >
+        Are you sure you want to delete 
+        <b>
+          Alice
+        </b>
+        ?
+      </div>
+      <div
+        class="confirm-actions"
+      >
+        <button
+          class="confirm-btn cancel"
+        >
+          Cancel
+        </button>
+        <button
+          class="confirm-btn delete"
+        >
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

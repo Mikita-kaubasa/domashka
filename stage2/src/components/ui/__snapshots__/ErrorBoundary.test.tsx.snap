@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`ErrorBoundary matches snapshot for fallback UI 1`] = `
+<DocumentFragment>
+  <div
+    class="error-boundary"
+  >
+    <div
+      class="error-content"
+    >
+      <h2>
+        Something went wrong
+      </h2>
+      <p>
+        We're sorry, but something unexpected happened. Please try refreshing the page.
+      </p>
+      <button
+        class="retry-button"
+      >
+        Refresh Page
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

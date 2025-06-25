@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`UserDetailsModal matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="modal-backdrop"
+    tabindex="-1"
+  >
+    <div
+      class="modal-container redesigned-modal"
+    >
+      <div
+        class="modal-header redesigned-header"
+      >
+        <div>
+          <div
+            class="modal-user-name"
+          >
+            Alice
+          </div>
+          <a
+            class="modal-user-email"
+            href="mailto:alice@example.com"
+          >
+            alice@example.com
+          </a>
+        </div>
+        <button
+          aria-label="Close modal"
+          class="close-button redesigned-close"
+        >
+          <span
+            aria-hidden="true"
+          >
+            ×
+          </span>
+        </button>
+      </div>
+      <div
+        class="modal-divider"
+      />
+      <div
+        class="modal-content redesigned-content"
+      >
+        <div
+          class="modal-section"
+        >
+          <div
+            class="modal-section-title"
+          >
+            Address
+          </div>
+          <div
+            class="modal-section-body"
+          >
+            <div>
+              Main St, Apt 1
+            </div>
+            <div>
+              Wonderland, 12345
+            </div>
+            <a
+              class="modal-map-link"
+              href="https://www.google.com/maps?q=0,0"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <span
+                aria-label="pin"
+                class="modal-map-pin"
+                role="img"
+              >
+                📍
+              </span>
+               View on map
+            </a>
+          </div>
+        </div>
+        <div
+          class="modal-section"
+        >
+          <div
+            class="modal-section-title"
+          >
+            Contact
+          </div>
+          <div
+            class="modal-section-body"
+          >
+            <div>
+              <span
+                class="modal-label"
+              >
+                Phone:
+              </span>
+               123-456-7890
+            </div>
+            <div>
+              <span
+                class="modal-label"
+              >
+                Website:
+              </span>
+               
+              <a
+                class="modal-link"
+                href="https://alice.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                alice.com
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal-section"
+        >
+          <div
+            class="modal-section-title"
+          >
+            Company
+          </div>
+          <div
+            class="modal-section-body"
+          >
+            <div>
+              <span
+                class="modal-label"
+              >
+                Name:
+              </span>
+               Alice Co
+            </div>
+            <div>
+              <span
+                class="modal-label"
+              >
+                Catchphrase:
+              </span>
+               Curious and Curiouser
+            </div>
+            <div>
+              <span
+                class="modal-label"
+              >
+                Business:
+              </span>
+               adventures
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

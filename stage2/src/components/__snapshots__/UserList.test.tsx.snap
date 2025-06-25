@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`UserList matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="user-list-container"
+  >
+    <h2
+      class="user-list-title"
+    >
+      User Directory
+    </h2>
+    <div
+      class="user-table-wrapper"
+    >
+      <table
+        class="user-table modern"
+      >
+        <thead>
+          <tr
+            class="table-header"
+          >
+            <th>
+              NAME / EMAIL
+            </th>
+            <th>
+              ADDRESS
+            </th>
+            <th>
+              PHONE
+            </th>
+            <th>
+              WEBSITE
+            </th>
+            <th>
+              COMPANY
+            </th>
+            <th>
+              ACTION
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            class="table-row"
+          >
+            <td
+              class="user-info"
+            >
+              <div
+                class="user-name"
+              >
+                Alice
+              </div>
+              <div
+                class="user-email"
+              >
+                alice@example.com
+              </div>
+            </td>
+            <td
+              class="user-address"
+              title="Main St, Apt 1, Wonderland, 12345"
+            >
+              Main St, Apt 1, Wonderland, 12345
+            </td>
+            <td
+              class="user-phone"
+            >
+              <a
+                href="tel:123-456-7890"
+              >
+                123-456-7890
+              </a>
+            </td>
+            <td
+              class="user-website"
+            >
+              <a
+                href="https://alice.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                alice.com
+              </a>
+            </td>
+            <td
+              class="user-company"
+            >
+              Alice Co
+            </td>
+            <td
+              class="user-action"
+            >
+              <button
+                aria-label="Remove user Alice"
+                class="action-btn"
+                tabindex="0"
+              >
+                <span
+                  class="action-x"
+                >
+                  ×
+                </span>
+              </button>
+            </td>
+          </tr>
+          <tr
+            class="table-row"
+          >
+            <td
+              class="user-info"
+            >
+              <div
+                class="user-name"
+              >
+                Bob
+              </div>
+              <div
+                class="user-email"
+              >
+                bob@example.com
+              </div>
+            </td>
+            <td
+              class="user-address"
+              title="Main St, Apt 1, Wonderland, 12345"
+            >
+              Main St, Apt 1, Wonderland, 12345
+            </td>
+            <td
+              class="user-phone"
+            >
+              <a
+                href="tel:123-456-7890"
+              >
+                123-456-7890
+              </a>
+            </td>
+            <td
+              class="user-website"
+            >
+              <a
+                href="https://alice.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                alice.com
+              </a>
+            </td>
+            <td
+              class="user-company"
+            >
+              Bob Inc
+            </td>
+            <td
+              class="user-action"
+            >
+              <button
+                aria-label="Remove user Bob"
+                class="action-btn"
+                tabindex="0"
+              >
+                <span
+                  class="action-x"
+                >
+                  ×
+                </span>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</DocumentFragment>
+`;
